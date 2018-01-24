@@ -10,6 +10,11 @@ Programmatically interface with NPCWallet.com wallet.
 * Sending/Transfer NPCoin
 
 # Get to Know About NPCWallet API
+NPCWallet are devided into two domain
+* NPCWallet.com
+* api-NPCWallet.com
+
+<b>NPCWallet.com</b>
 
 
 
