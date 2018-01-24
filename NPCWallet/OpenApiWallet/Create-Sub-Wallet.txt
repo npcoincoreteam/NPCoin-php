@@ -1,0 +1,42 @@
+Example response reply for API (Sub Wallet Address)
+
+1. Success Creating Sub Wallet Address
+Array
+(
+
+    [response] => 0
+
+    [success] => Success created wallet.
+
+    [wallet_address] => 000x4a87380c24c5c8525fe96a1d01030bcb
+
+    [wallet_sec_code] => 3704e3-4e0e23-e8e1f8-a571dc-8fd0ac-d1
+
+)
+[response] => 0 (means no error and successful)
+
+
+2. Error response 1
+Array
+(
+
+    [response] => 1
+
+    [error] => Api User and Api Key must include.
+
+)
+
+[response] => 1 (means parameters needed blank)
+
+
+3. Error response 2
+Array
+(
+
+    [response] => 2
+
+    [error] => Api User and Api Key not valid.
+
+)
+[response] => 2 (means parameters not valid)
+
