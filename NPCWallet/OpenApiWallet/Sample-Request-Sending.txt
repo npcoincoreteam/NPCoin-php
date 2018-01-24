@@ -1,0 +1,33 @@
+<?php
+
+$api_user = "your api user";    				//alnumeric code that provide by our system//
+$api_key = "your api key";     					//alnumeric code that provide by our system//
+$amount_sending = "amount";     				//number and number with decimal//
+$address_from = "sender address";     			//wallet address sender//
+$wallet_secret_code = "wallet_secret_code";     //provided when creating wallet eg: asdasd-werdsf3x-ascasdas-sdfwer456-xc//
+$address_to = "receiver address";     			//wallet address receiver//
+$fee = "0.0050";     							//for our system network normal 0.0050 NPCoin (fixed)//
+
+
+//request url//
+$json_url = "http://api-npcwallet.com/API-V1/Sending-Request";
+
+$arr=array("apiuser"=>$api_user,"apikey"=>$api_key,"amount_send"=>$amount_sending,"from"=>$address_from,"wallet_sec_code"=>$wallet_secret_code,"to"=>$address_to,"fee"=>$fee);
+$url=$json_url;
+$curl = curl_init();   
+curl_setopt($curl, CURLOPT_URL, $url);  
+curl_setopt($curl, CURLOPT_AUTOREFERER, true);  
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);  
+curl_setopt($curl, CURLOPT_TIMEOUT, 60);   
+curl_setopt($curl, CURLOPT_POST, TRUE);
+curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($arr));
+$html = curl_exec($curl); // execute the curl command 
+$results = json_decode($html,TRUE);
+
+
+///**** do your fuction her ****///
+
+
+///**** do your fuction her ****///
+
+?>
