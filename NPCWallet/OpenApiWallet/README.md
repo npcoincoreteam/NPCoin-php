@@ -58,7 +58,8 @@ Array
 )
 <br>
 [response] => 0 (means no error and successful)
-
+<br>
+<br>
 2. Error response 1
 <br>
 Array
@@ -72,7 +73,8 @@ Array
 )
 <br>
 [response] => 1 (means parameters needed blank)
-
+<br>
+<br>
 3. Error response 2
 <br>
 Array
@@ -86,7 +88,8 @@ Array
 )
 <br>
 [response] => 2 (means parameters not valid)
-
+<br>
+<br>
 4. Error response 3
 <br>
 Array
