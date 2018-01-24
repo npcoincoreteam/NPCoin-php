@@ -28,18 +28,21 @@ To use this API, you will need to apply for <b>API USER CODE</b> and <b>API KEY<
 
 To apply the <b>API USER CODE</b> and <b>API KEY</b> simplfy click the link below and fill-up application form:
 <br>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSe-tiyf0ffiowj7UrDlch1CZCxOuAtfEBLECUhTogsVXxLHhA/viewform?c=0&w=1" target="_blank">CLICK HERE</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSe-tiyf0ffiowj7UrDlch1CZCxOuAtfEBLECUhTogsVXxLHhA/viewform?c=0&w=1">CLICK HERE</a>
 
 Affer submiting the form, we will process the <b>API USER CODE</b> and <b>API KEY</b> between 1 to 5 working days and we will notify applicant about <b>API USER CODE</b> and <b>API KEY</b> via our official email.
   
 # Creating Main Wallet Address
-For creating Main Wallet for the API just need parameters as below:
+For creating Main Wallet for the API just need
 * API USER CODE
 * API KEY
 
 Because of API USER CODE and API KEY already assign to specific API Holder, this two parameters will not be duplicated.
 The Main Wallet Address only will create once and the API Holder need to take note for the response reply for this request and save it in API Holder database.
+<br>
+<a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Create-Main-Wallet.txt">REFER HERE FOR API RESPONSE</a>
 
 # Creating Sub Wallet Address
 In our API, API Holder can create as many as they want Sub Wallet Address for their user. This Sub Wallet Address will be create under API Holder <b>API USER CODE</b> and <b>API KEY</b>.
-
+<br>
+<a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Create-Sub-Wallet.txt">REFER HERE FOR API RESPONSE</a>
