@@ -6,7 +6,7 @@ Programmatically interface with NPCWallet.com wallet.
 * <a href="#getting-started">Getting Started</a>
 * Creating Main Wallet Address
 * Creating Sub Wallet Address
-* Retrive Wallet Address
+* Retrieve NPCoin Wallet Address
 * Sending/Transfer NPCoin
 
 # Get to Know About NPCWallet API
