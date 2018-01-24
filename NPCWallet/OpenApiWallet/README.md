@@ -40,7 +40,7 @@ For creating Main Wallet for the API just need parameters as below:
 Because of API USER CODE and API KEY already assign to specific API Holder, this two parameters will not be duplicated.
 The Main Wallet Address only will create once and the API Holder need to take note for the response reply for this request and save it in API Holder database.
 
-Example response reply for API:
+Example response reply for API
 <br>
 1. Success Creating Main Wallet Address
 <br>
