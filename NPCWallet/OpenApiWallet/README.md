@@ -39,10 +39,14 @@ For creating Main Wallet for the API just need
 Because of API USER CODE and API KEY already assign to specific API Holder, this two parameters will not be duplicated.
 The Main Wallet Address only will create once and the API Holder need to take note for the response reply for this request and save it in API Holder database.
 <br>
+<a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Request-Main-Wallet.txt">Sample Create Main Wallet</a>
+<br>
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Create-Main-Wallet.txt">REFER HERE FOR API RESPONSE</a>
 
 # Creating Sub Wallet Address
 In our API, API Holder can create as many as they want Sub Wallet Address for their user. This Sub Wallet Address will be create under API Holder <b>API USER CODE</b> and <b>API KEY</b>.
+<br>
+<a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Request-Sub-Wallet.txt">Sample Create Sub Wallet</a>
 <br>
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Create-Sub-Wallet.txt">REFER HERE FOR API RESPONSE</a>
 
@@ -57,5 +61,7 @@ Fuction sending/transfer need parameter as below
 * wallet_sec_code for Sending Address
 * Receiver Address
 * Fee (that decided by our side)
+<br>
+<a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Request-Sending.txt">Sample Sending/Transfer Request</a>
 <br>
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sending-Transfer-Response.txt">REFER HERE FOR API RESPONSE</a>
