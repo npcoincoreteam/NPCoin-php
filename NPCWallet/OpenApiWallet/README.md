@@ -6,7 +6,6 @@ Programmatically interface with NPCWallet.com wallet.
 * <a href="#getting-started">Getting Started</a>
 * Creating Main Wallet Address
 * Creating Sub Wallet Address
-* Retrieve NPCoin Wallet Address
 * Sending/Transfer NPCoin
 
 # Get to Know About NPCWallet API
@@ -46,3 +45,15 @@ The Main Wallet Address only will create once and the API Holder need to take no
 In our API, API Holder can create as many as they want Sub Wallet Address for their user. This Sub Wallet Address will be create under API Holder <b>API USER CODE</b> and <b>API KEY</b>.
 <br>
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Create-Sub-Wallet.txt">REFER HERE FOR API RESPONSE</a>
+
+# Sending/Transfer NPCoin
+Fuction sending/transfer NPCoin is very strict and need more security parameters so that only authorise person and owner of the wallet address only can make the sending/transfer.
+
+Fuction sending/transfer need parameter as below
+* API USER CODE
+* API KEY
+* Amount to transfer/send
+* Sending Address
+* wallet_sec_code for Sending Address
+* Receiver Address
+* Fee (that decided by our side)
