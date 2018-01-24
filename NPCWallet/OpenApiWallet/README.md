@@ -57,5 +57,4 @@ Fuction sending/transfer need parameter as below
 * wallet_sec_code for Sending Address
 * Receiver Address
 * Fee (that decided by our side)
-<br>
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sending-Transfer-Response.txt">REFER HERE FOR API RESPONSE</a>
