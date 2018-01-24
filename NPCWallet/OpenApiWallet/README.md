@@ -30,6 +30,6 @@ To apply the <b>API USER CODE</b> and <b>API KEY</b> simplfy click the link belo
 <br>
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-tiyf0ffiowj7UrDlch1CZCxOuAtfEBLECUhTogsVXxLHhA/viewform?c=0&w=1" target="_blank">CLICK HERE</a>
 
-Affer submiting the form, we will process the <b>API USER CODE</b> and <b>API KEY</> between 1 to 5 working days and we will notify applicant about <b>API USER CODE</b> and <b>API KEY</b> via our official email.
+Affer submiting the form, we will process the <b>API USER CODE</b> and <b>API KEY</b> between 1 to 5 working days and we will notify applicant about <b>API USER CODE</b> and <b>API KEY</b> via our official email.
   
  
