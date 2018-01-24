@@ -42,35 +42,61 @@ The Main Wallet Address only will create once and the API Holder need to take no
 
 Example response reply for API:
 1. Success Creating Main Wallet Address
+<br>
 Array
+<br>
 (
+<br>
     [response] => 0
+<br>
     [success] => Success created wallet.
+<br>
     [wallet_address] => 000x4a87380c24c5c8525fe96a1d01030bcb
+<br>
     [wallet_sec_code] => 3704e3-4e0e23-e8e1f8-a571dc-8fd0ac-d1
+<br>
 )
+<br>
 [response] => 0 (means no error and successful)
 
 2. Error response 1
+<br>
 Array
+<br>
 (
+<br>
     [response] => 1
+<br>
     [error] => Api User and Api Key must include.
+<br>
 )
+<br>
 [response] => 1 (means parameters needed blank)
 
 3. Error response 2
+<br>
 Array
+<br>
 (
+<br>
     [response] => 2
+<br>
     [error] => Api User and Api Key not valid.
+<br>
 )
+<br>
 [response] => 2 (means parameters not valid)
 
 4. Error response 3
+<br>
 Array
+<br>
 (
+<br>
     [response] => 3
+<br>
     [error] => Main wallet account for this wallet already exist
+<br>
 )
+<br>
 [response] => 3 (means the Main Wallet Address already created - this mean by not duplicated)
