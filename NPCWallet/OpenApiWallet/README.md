@@ -24,7 +24,7 @@ api-NPCWallet.com is our main processor for API Request. This api-NPCWallet.com 
 
 
 # Getting Started
-To use this API, you will need to apply for <b>API USER CODE</b> and <b>API KEY</b>.
+To use this API, you will need to apply for <b>API USER CODE</b> and <b>API KEY</b>. For exchanger, will create <b>API USER CODE</b> and <b>API KEY</b>.
 
 To apply the <b>API USER CODE</b> and <b>API KEY</b> simplfy click the link below and fill-up application form:
 <br>
@@ -32,4 +32,45 @@ To apply the <b>API USER CODE</b> and <b>API KEY</b> simplfy click the link belo
 
 Affer submiting the form, we will process the <b>API USER CODE</b> and <b>API KEY</b> between 1 to 5 working days and we will notify applicant about <b>API USER CODE</b> and <b>API KEY</b> via our official email.
   
- 
+# Creating Main Wallet Address
+For creating Main Wallet for the API just need parameters as below:
+* API USER CODE
+* API KEY
+
+Because of API USER CODE and API KEY already assign to specific API Holder, this two parameters will not be duplicated.
+The Main Wallet Address only will create once and the API Holder need to take note for the response reply for this request and save it in API Holder database.
+
+Example response reply for API:
+1. Success Creating Main Wallet Address
+Array
+(
+    [response] => 0
+    [success] => Success created wallet.
+    [wallet_address] => 000x4a87380c24c5c8525fe96a1d01030bcb
+    [wallet_sec_code] => 3704e3-4e0e23-e8e1f8-a571dc-8fd0ac-d1
+)
+[response] => 0 (means no error and successful)
+
+2. Error response 1
+Array
+(
+    [response] => 1
+    [error] => Api User and Api Key must include.
+)
+[response] => 1 (means parameters needed blank)
+
+3. Error response 2
+Array
+(
+    [response] => 2
+    [error] => Api User and Api Key not valid.
+)
+[response] => 2 (means parameters not valid)
+
+4. Error response 3
+Array
+(
+    [response] => 3
+    [error] => Main wallet account for this wallet already exist
+)
+[response] => 3 (means the Main Wallet Address already created - this mean by not duplicated)
