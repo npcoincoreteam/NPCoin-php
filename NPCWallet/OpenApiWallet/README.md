@@ -11,10 +11,14 @@ Programmatically interface with NPCWallet.com wallet.
 
 # Get to Know About NPCWallet API
 NPCWallet are devided into two domain
-* <a href="#npcwallet">NPCWallet.com</a>
+* NPCWallet.com
 * api-NPCWallet.com
 
-<b class="npcwallet">NPCWallet.com</b>
+<b>NPCWallet.com</b>
+NPCWallet.com is our main WEB-BASED Wallet System. All API request about wallet will through the NPCWallet.com database and verifier system. We develop NPCWallet.com using fully pHp codes and some of jQuery/ajax. Wallet system that we develop using sha1 and sha256 algorithm.
+
+<b>api-NPCWallet.com</b>
+api-NPCWallet.com is our main processor for API Request. This api-NPCWallet.com also using fully pHp codes.
 
 
 
