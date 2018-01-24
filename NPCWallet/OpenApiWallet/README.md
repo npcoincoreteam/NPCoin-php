@@ -4,9 +4,9 @@ Programmatically interface with NPCWallet.com wallet.
 # Contents
 * <a href="#get-to-know-about-npcwallet-api">Get to Know About NPCWallet API</a>
 * <a href="#getting-started">Getting Started</a>
-* Creating Main Wallet Address
-* Creating Sub Wallet Address
-* Sending/Transfer NPCoin
+* <a href="#creating-main-wallet-address">Creating Main Wallet Address</a>
+* <a href="#creating-sub-wallet-address">Creating Sub Wallet Address</a>
+* <a href="#sendingtransfer-npcoin">Sending/Transfer NPCoin</a>
 
 # Get to Know About NPCWallet API
 NPCWallet are devided into two domain
