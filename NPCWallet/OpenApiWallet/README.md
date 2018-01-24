@@ -11,10 +11,10 @@ Programmatically interface with NPCWallet.com wallet.
 
 # Get to Know About NPCWallet API
 NPCWallet are devided into two domain
-* NPCWallet.com
+* <a href="#npcwallet">NPCWallet.com</a>
 * api-NPCWallet.com
 
-<b>NPCWallet.com</b>
+<b class="npcwallet">NPCWallet.com</b>
 
 
 
