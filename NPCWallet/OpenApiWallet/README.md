@@ -5,7 +5,7 @@ New update on 09-02-2018
 # Contents
 * <a href="#get-to-know-about-npcwallet-api">Get to Know About NPCWallet API</a>
 * <a href="#getting-started">Getting Started</a>
-* <a href="#creating-wallet-address">Creating Main Wallet Address</a>
+* <a href="#creating-wallet-address">Creating Wallet Address</a>
 * <a href="#retrieve-wallet-balance">Creating Sub Wallet Address</a>
 * <a href="#sendingtransfer-npcoin">Sending/Transfer NPCoin</a>
 
@@ -32,7 +32,7 @@ To apply the <b>API USER CODE</b> and <b>API KEY</b> simplfy click the link belo
 
 Affer submiting the form, we will process the <b>API USER CODE</b> and <b>API KEY</b> between 1 to 5 working days and we will notify applicant about <b>API USER CODE</b> and <b>API KEY</b> via our official email.
   
-# Creating Main Wallet Address
+# Creating Wallet Address
 For creating Wallet for the API, needs 4 important parameters as below:
 * API USER CODE
 * API KEY
@@ -41,7 +41,7 @@ For creating Wallet for the API, needs 4 important parameters as below:
 
 Because of API USER CODE and API KEY already assign to specific API Holder, this two parameters will not be duplicated.
 <br>
-<a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Request-Wallet.txt">Sample Create Wallet</a>
+<a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Create-Wallet.txt">Sample Create Wallet</a>
 <br>
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Create-Wallet.txt">REFER HERE FOR API RESPONSE</a>
 
