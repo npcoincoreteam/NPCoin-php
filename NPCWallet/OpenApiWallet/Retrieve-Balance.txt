@@ -1,0 +1,27 @@
+Example response reply for API
+1. Success Retrieve Balance
+Array
+(
+    [response] => 0
+    [wallet_balance] => 0.0000    //amount wallet balance
+    [wallet_address] => wallet address here    //example only
+)
+[response] => 0 (means no error and successful)
+
+
+2. Error response 1
+Array
+(
+    [response] => 1
+    [error] => Missing parameters for Wallet Secret and Password.
+)
+[response] => 1 (means parameters needed blank)
+
+
+3. Error response 2
+Array
+(
+    [response] => 2
+    [error] => Wallet Secret and Password not valid.
+)
+[response] => 2 (means parameters not valid)
