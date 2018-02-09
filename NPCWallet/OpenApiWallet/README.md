@@ -6,7 +6,7 @@ New update on 09-02-2018
 * <a href="#get-to-know-about-npcwallet-api">Get to Know About NPCWallet API</a>
 * <a href="#getting-started">Getting Started</a>
 * <a href="#creating-wallet-address">Creating Wallet Address</a>
-* <a href="#retrieve-wallet-balance">Creating Sub Wallet Address</a>
+* <a href="#retrieve-wallet-balance">Retrieve Wallet Balance</a>
 * <a href="#sendingtransfer-npcoin">Sending/Transfer NPCoin</a>
 
 # Get to Know About NPCWallet API
