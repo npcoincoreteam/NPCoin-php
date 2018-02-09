@@ -1,0 +1,46 @@
+Example response reply for API
+1. Success Creating Main Wallet Address
+Array
+(
+    [response] => 0
+    [success] => Success send to wallet address.
+    [amount_transfer] => 0.0001    //example only
+    [amount_fee] => 0.0000NPC / 0.0050NPC    //same API no fee, different API 0.0050NPC as fee
+)
+[response] => 0 (means no error and successful)
+
+
+2. Error response 1
+Array
+(
+    [response] => 1
+    [error] =>Missing parameters for Address From, Address To, Wallet Secret, Password and Amount.
+)
+[response] => 1 (means parameters needed blank)
+
+
+3. Error response 2
+Array
+(
+    [response] => 2
+    [error] => Parameter for sender address not valid.
+)
+[response] => 2 (Sender wallet address not valid)
+
+
+4. Error response 3
+Array
+(
+    [response] => 3
+    [error] => Parameter for receiver address not valid.
+)
+[response] => 3 (receiver wallet address not valid).
+
+
+4. Error response 4
+Array
+(
+    [response] => 4
+    [error] => Unsufficient  NPC Amount to transfer.
+)
+[response] => 3 (sender not have enough balance).
