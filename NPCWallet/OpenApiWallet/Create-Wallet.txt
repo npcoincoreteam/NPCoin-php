@@ -4,8 +4,9 @@ Array
 (
     [response] => 0
     [success] => Success created wallet.
-    [wallet_address] => 000x4a87380c24c5c8525fe96a1d01030bcb
-    [wallet_sec_code] => 3704e3-4e0e23-e8e1f8-a571dc-8fd0ac-d1
+    [wallet_address] => 000x4a87380c24c5c8525fe96a1d01030bcb    //example only
+    [wallet_sec_code] => 3704e3-4e0e23-e8e1f8-a571dc-8fd0ac-d1    //example only
+    [wallet_password] => jmzxch34    //example only
 )
 [response] => 0 (means no error and successful)
 
@@ -14,7 +15,7 @@ Array
 Array
 (
     [response] => 1
-    [error] => Api User and Api Key must include.
+    [error] => Missing parameters for Api User, Api Key, Email and Password.
 )
 [response] => 1 (means parameters needed blank)
 
@@ -32,6 +33,6 @@ Array
 Array
 (
     [response] => 3
-    [error] => Main wallet account for this wallet already exist
+    [error] => This email "email parameter" already have wallet address with this api.
 )
-[response] => 3 (means the Main Wallet Address already created - this mean by not duplicated).
+[response] => 3 (means the  Wallet Address for the email already created - this mean by not duplicated).
