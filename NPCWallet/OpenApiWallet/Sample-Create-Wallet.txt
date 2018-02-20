@@ -9,7 +9,7 @@ $password = "your/user password";
 //request url//
 $json_url = "http://api-npcwallet.com/API-V1/Create-Wallets/";
 
-$arr=array("apiuser"=>$api_user,"apikey"=>$api_key,"email"=>$user_email,"email"=>$password);
+$arr=array("apiuser"=>$api_user,"apikey"=>$api_key,"email"=>$user_email,"password"=>$password);
 $url=$json_url;
 $curl = curl_init();   
 curl_setopt($curl, CURLOPT_URL, $url);  
