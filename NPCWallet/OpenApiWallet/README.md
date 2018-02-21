@@ -11,13 +11,13 @@ New update on 09-02-2018
 * <a href="#tracking-transaction-id">Tracking Transaction ID</a>
 
 # Get to Know About NPCWallet API
-NPCWallet are devided into two domain
+NPCWallet are divided into two domain
 * NPCWallet.com
 * api-NPCWallet.com
 
 <b>NPCWallet.com</b>
 <br>
-NPCWallet.com is our main WEB-BASED Wallet System. All API request about wallet will through the NPCWallet.com database and verifier system. We develop NPCWallet.com using fully pHp codes and some of jQuery/ajax. Wallet system that we develop using sha1 and sha256 algorithm.
+NPCWallet.com is our main WEB-BASED Wallet System. All API request about wallet will through the NPCWallet.com database and verify system. We develop NPCWallet.com using fully pHp codes and some of jQuery/ajax. Wallet system that we develop using sha1 and sha256 algorithm.
 
 <b>api-NPCWallet.com</b>
 <br>
@@ -33,7 +33,7 @@ To apply the <b>API USER CODE</b> and <b>API KEY</b> simplify click the link bel
 <br>
 For exchanger we will create the API KEY for you (no need to fill the form), just provide to us your domain name, email and server IP. Email to us at <a href="mailto:npcoin.international@gmail.com">npcoin.international@gmail.com</a>
 
-Affer submiting the form, we will process the <b>API USER CODE</b> and <b>API KEY</b> between 1 to 5 working days and we will notify applicant about <b>API USER CODE</b> and <b>API KEY</b> via our official email.
+After submitting the form, we will process the <b>API USER CODE</b> and <b>API KEY</b> between 1 to 5 working days and we will notify applicant about <b>API USER CODE</b> and <b>API KEY</b> via our official email.
   
 # Creating Wallet Address
 For creating Wallet for the API, needs 4 important parameters as below:
@@ -53,16 +53,16 @@ In our API, API Holder can create as many as they want the Wallet Address for th
 <br>
 To retrieve Wallet Balance only need 2 important parameters as below:
 * WALLET_SECRET (auto generate when create the wallet above)
-* PASSWOR (the password that mention in creat wallet above)
+* PASSWORD (the password that mention in create wallet above)
 <br>
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Retrieve-Balance.txt">Sample Retrieve Balance</a>
 <br>
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Retrieve-Balance.txt">REFER HERE FOR API RESPONSE</a>
 
 # Sending/Transfer NPCoin
-Fuction sending/transfer NPCoin is very strict and need more security parameters so that only authorise person and owner of the wallet address only can make the sending/transfer.
+Function sending/transfer NPCoin is very strict and need more security parameters so that only authorise person and owner of the wallet address only can make the sending/transfer.
 
-Fuction sending/transfer need parameter as below
+Function sending/transfer need parameter as below
 * Sending Address / Wallet From
 * Receiver Address / Wallet To
 * Wallet Secret
@@ -77,7 +77,7 @@ Fuction sending/transfer need parameter as below
 For API User, every transaction have their own Tracking ID (start with TX capital letter).
 We now developing new API, so for the retriving Tracking ID's data, only done for single Tracking ID only. But we will upgrade for tracking Multiple Tracking ID.
 
-Fuction Tracking Transaction ID only need parameter as below
+Function Tracking Transaction ID only need parameter as below
 * Tracking ID
 <br>
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Track-Tracking-ID.txt">Sample Tracking Transaction ID Request</a>
