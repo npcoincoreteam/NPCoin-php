@@ -1,0 +1,33 @@
+Example response reply for API
+1. Success Creating Main Wallet Address
+Array
+(
+    [response] => 0
+    [success] => Success track for Tracking ID.
+    [random_id] => created by the system
+    [tracking_id] => TXa7sd7asdhasdg73bhsdhfhs8w87r   //sample tracking ID (starting with TX capital letter) for every transaction
+    [address_sender] => Sender Address
+    [address_receiver] => Receiver Address
+    [transaction_amount] => Transaction amount
+    [transaction_fee] => fee
+    [transaction_date] => date of transaction
+)
+[response] => 0 (means no error and successful)
+
+
+2. Error response 1
+Array
+(
+    [response] => 1
+    [error] =>Missing parameters for Tracking ID.
+)
+[response] => 1 (Missing parameters for Tracking ID)
+
+
+3. Error response 2
+Array
+(
+    [response] => 2
+    [error] => Tracking ID not valid.
+)
+[response] => 2 (Tracking ID not valid)
