@@ -6,7 +6,7 @@ Array
     [success] => Success send to wallet address.
     [amount_transfer] => 0.0001    //example only
     [amount_fee] => 0.0000NPC / 0.0050NPC    //same API no fee, different API 0.0050NPC as fee
-    [tracking_code] => TXa7sd7asdhasdg73bhsdhfhs8w87r   //sample tracking ID for every transaction
+    [tracking_code] => TXa7sd7asdhasdg73bhsdhfhs8w87r   //sample tracking ID (starting with TX capital letter) for every transaction
 )
 [response] => 0 (means no error and successful)
 
