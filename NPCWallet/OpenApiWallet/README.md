@@ -69,3 +69,14 @@ Fuction sending/transfer need parameter as below
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Request-Sending.txt">Sample Sending/Transfer Request</a>
 <br>
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sending-Transfer-Response.txt">REFER HERE FOR API RESPONSE</a>
+
+# Tracking Transaction ID
+For API User, every transaction have their own Tracking ID (start with TX capital letter).
+We now developing new API, so for the retriving Tracking ID's data, only done for single Tracking ID only. But we will upgrade for tracking Multiple Tracking ID.
+
+Fuction Tracking Transaction ID only need parameter as below
+* Tracking ID
+<br>
+<a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Track-Tracking-ID.txt">Sample Tracking Transaction ID Request</a>
+<br>
+<a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Track-Tracking-ID.txt">REFER HERE FOR API RESPONSE</a>
