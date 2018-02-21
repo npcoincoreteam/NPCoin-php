@@ -27,9 +27,11 @@ api-NPCWallet.com is our main processor for API Request. This api-NPCWallet.com 
 # Getting Started
 To use this API, you will need to apply for <b>API USER CODE</b> and <b>API KEY</b>. For exchanger, will create <b>API USER CODE</b> and <b>API KEY</b>.
 
-To apply the <b>API USER CODE</b> and <b>API KEY</b> simplfy click the link below and fill-up application form:
+To apply the <b>API USER CODE</b> and <b>API KEY</b> simplify click the link below and fill-up application form:
 <br>
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-tiyf0ffiowj7UrDlch1CZCxOuAtfEBLECUhTogsVXxLHhA/viewform?c=0&w=1">CLICK HERE</a>
+<br>
+For exchanger we will create the API KEY for you (no need to fill the form), just provide to us your domain name, email and server IP.
 
 Affer submiting the form, we will process the <b>API USER CODE</b> and <b>API KEY</b> between 1 to 5 working days and we will notify applicant about <b>API USER CODE</b> and <b>API KEY</b> via our official email.
   
