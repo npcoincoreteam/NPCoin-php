@@ -38,10 +38,38 @@ Array
 [response] => 3 (receiver wallet address not valid).
 
 
-4. Error response 4
+5. Error response 4
 Array
 (
     [response] => 4
     [error] => Unsufficient  NPC Amount to transfer.
 )
-[response] => 3 (sender not have enough balance).
+[response] => 4 (sender not have enough balance).
+
+
+6. Error response 5
+Array
+(
+    [response] => 5
+    [error] => Receiver Address and Sender Address must not contain whitespace.
+)
+[response] => 5 (Receiver Address and Sender Address must not contain whitespace)
+
+
+7. Error response 6
+Array
+(
+    [response] => 6
+    [error] => Receiver Address and Sender Address must be different.
+)
+[response] => 6 (Receiver Address and Sender Address must be different)
+
+
+8. Error response 7
+Array
+(
+    [response] => 7
+    [error] => Amount NPCoin must be numeric value.
+)
+[response] => 7 (Amount NPCoin must be numeric value)
+
