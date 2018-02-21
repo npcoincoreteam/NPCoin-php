@@ -75,7 +75,7 @@ Function sending/transfer need parameter as below
 
 # Tracking Transaction ID
 For API User, every transaction have their own Tracking ID (start with TX capital letter).
-We now developing new API, so for the retriving Tracking ID's data, only done for single Tracking ID only. But we will upgrade for tracking Multiple Tracking ID.
+We now developing new API, so for the retrieving Tracking ID's data, only done for single Tracking ID only. But we will upgrade for tracking Multiple Tracking ID.
 
 Function Tracking Transaction ID only need parameter as below
 * Tracking ID
