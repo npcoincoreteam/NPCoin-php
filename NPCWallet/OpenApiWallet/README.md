@@ -31,7 +31,7 @@ To apply the <b>API USER CODE</b> and <b>API KEY</b> simplify click the link bel
 <br>
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe-tiyf0ffiowj7UrDlch1CZCxOuAtfEBLECUhTogsVXxLHhA/viewform?c=0&w=1">CLICK HERE</a>
 <br>
-For exchanger we will create the API KEY for you (no need to fill the form), just provide to us your domain name, email and server IP.
+For exchanger we will create the API KEY for you (no need to fill the form), just provide to us your domain name, email and server IP. Email to us at <a href="mailto:npcoin.international@gmail.com">npcoin.international@gmail.com</a>
 
 Affer submiting the form, we will process the <b>API USER CODE</b> and <b>API KEY</b> between 1 to 5 working days and we will notify applicant about <b>API USER CODE</b> and <b>API KEY</b> via our official email.
   
