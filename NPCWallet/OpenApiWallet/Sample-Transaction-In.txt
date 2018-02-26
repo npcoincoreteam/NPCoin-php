@@ -1,0 +1,22 @@
+Example response reply for API
+1. Success Creating Main Wallet Address
+Array
+(
+    [id_random] => randome id generate by system
+    [tracking_code] => Success track for Tracking ID.
+    [address_from] => Sender Address
+    [address_to] => Receiver Address
+    [npc_amount] => Transaction amount
+    [transaction_fee] => fee
+    [transaction_date] => date of transaction
+)
+*(no error and successful)
+
+
+2. Error response 1
+Array
+(
+    [response] => 1
+    [error] => No data.
+)
+[response] => 1 (No data)
