@@ -9,6 +9,7 @@ New update on 09-02-2018
 * <a href="#retrieve-wallet-balance">Retrieve Wallet Balance</a>
 * <a href="#sendingtransfer-npcoin">Sending/Transfer NPCoin</a>
 * <a href="#tracking-transaction-id">Tracking Transaction ID</a>
+* <a href="#retrieve-multiple-or-thousands-transaction-for-addresses">Retrieve Multiple or Thousands Transaction for Addresses</a>
 
 # Get to Know About NPCWallet API
 NPCWallet are divided into two domain
