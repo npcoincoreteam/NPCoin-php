@@ -83,3 +83,18 @@ Function Tracking Transaction ID only need parameter as below
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Track-Tracking-ID.txt">Sample Tracking Transaction ID Request</a>
 <br>
 <a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Track-Tracking-ID.txt">REFER HERE FOR API RESPONSE</a>
+
+# Retrieve Multiple or Thousands Transaction for Addresses
+For API User, now we already allowed User to Retrieve Multiple or Thousands Transaction for Addresses.
+In this function only need the wallet address as parameter.
+
+Sample PHP code & Response
+
+* All transaction (IN/OUT)
+<a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Transaction-In-Out.txt">click here</a>
+
+* All transaction (IN only)
+<a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Transaction-In.txt">click here</a>
+
+* All transaction (OUT only)
+<a href="https://github.com/npcoincoreteam/NPCoin/blob/master/NPCWallet/OpenApiWallet/Sample-Transaction-Out.txt">click here</a>
