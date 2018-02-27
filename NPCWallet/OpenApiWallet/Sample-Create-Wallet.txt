@@ -22,9 +22,9 @@ $html = curl_exec($curl); // execute the curl command
 $results = json_decode($html,TRUE);
 
 
-///**** do your fuction her ****///
+///**** do your function her ****///
 
 
-///**** do your fuction her ****///
+///**** do your function her ****///
 
 ?>
